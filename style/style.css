@@ -67,6 +67,10 @@ button {
     background: #c9c8c8;
 }
 
+.number {
+    background: #9c9c9c;
+}
+
 #pi {
     font-family: "Roboto";
 }
