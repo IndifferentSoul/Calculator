@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/script.js" type="module" defer></script>
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>  -->
+</head>
+<body>
+    <div class="heading text">Simple Calculator</div>
+    <div class="error-message text"></div>
+    <main>
+        <div class="calculator">
+            <div class="screen text">
+                <div class="answer"></div>
+                <div class="focus big-int"></div>
+            </div>
+            <div class="grid-container">
+                <button class="btn special" id="clear">C</button>
+                <button class="btn special" id="backspace">CE</button>
+                <button class="btn special" id="exponential">E</button>
+                <button class="btn special" id="euler">e</button>
+                <button class="btn special" id="pi">π</button>
+                <button class="btn special" id="percent">%</button>
+                <!-- Square root and exponent buttons not functional yet -->
+                <!-- <button class="btn operator" id="square-root">√</button> -->
+                <!-- <button class="btn operator" id="exponent">x^y</button> -->
+                <button class="btn operator" id="division">÷</button>
+                <button class="btn number">7</button>
+                <button class="btn number">8</button>
+                <button class="btn number">9</button>
+                <button class="btn operator" id="multiplication">×</button>
+                <button class="btn number">4</button>
+                <button class="btn number">5</button>
+                <button class="btn number">6</button>
+                <button class="btn operator" id="subtraction">-</button>
+                <button class="btn number">1</button>
+                <button class="btn number">2</button>
+                <button class="btn number">3</button>
+                <button class="btn operator" id="addition">+</button>
+                <button class="btn special" id="positive-negative">+/-</button>
+                <button class="btn number" id="zero">0</button>
+                <button class="btn special" id="decimal">.</button>
+                <button class="btn" id="calculate">=</button>
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer class="text">
+        Made by IndifferentSoul <a href="https://github.com/IndifferentSoul"><img src="./style/images/resources.github.com.ico"></a>
+    </footer>
+</body>
+</html>
